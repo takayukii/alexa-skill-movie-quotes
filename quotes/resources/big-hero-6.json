@@ -1,0 +1,40 @@
+[
+  {
+    "scene": "At a Bot Fight",
+    "quotes": [
+      {
+        "person": "Announcer",
+        "quote": "THE WINNER, BY TOTAL ANNIHILATION... YAMA!"
+      },
+      {
+        "person": "Yama",
+        "quote": "Who's next?! Who has the guts to step into the ring with Little Yama?!"
+      },
+      {
+        "person": "Hiro",
+        "quote": "Can I try?"
+      },
+      {
+        "person": "Hiro",
+        "quote": "I have a robot. I built it myself."
+      }
+    ]
+  },
+  {
+    "scene": "Tadashi just saved Hiro who was at a Bot Fight.",
+    "quotes": [
+      {
+        "person": "Tadashi",
+        "quote": "Bot Fighting is illegal. You're going to get yourself arrested!"
+      },
+      {
+        "person": "Hiro",
+        "quote": "Bot Fighting is NOT illegal! Betting on Bot Fighting, that's-- that's illegal. But, SO lucrative!"
+      },
+      {
+        "person": "Hiro",
+        "quote": "I'm on a roll, big brother! AND THERE IS NO STOPPING ME!"
+      }
+    ]
+  }
+]

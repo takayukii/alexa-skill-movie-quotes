@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "alexa-sdk": "^1.0.12",
+    "string-similarity": "^1.2.0"
+  }
+}
