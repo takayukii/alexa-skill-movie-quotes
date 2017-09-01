@@ -18,7 +18,7 @@ const handlers = [
     },
     'AskTitle': function () {
       console.log('handlers AskTitle');
-      const titles = Object.keys(STATE).map((key) => (`quotes from ${key}.<break time='500ms'/>`));
+      const titles = Object.keys(STATE).map((key) => (`${key}.<break time='500ms'/>`));
       const message = `Welcome to Quotes practice. You can choose quotes from following titles.<break time='500ms'/> ${titles.join(' ')}`;
       this.emit(':ask', message, MSG_RE_PROMPT);
     },
@@ -57,3 +57,5 @@ module.exports.quotes = (event, context, callback) => {
   alexa.registerHandlers(...handlers);
   alexa.execute();
 };
+
+module.exports.STATE = STATE;

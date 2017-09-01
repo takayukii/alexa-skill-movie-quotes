@@ -11,10 +11,17 @@ function createHandlers(state, LIST_OF_DIALOGUES) {
   return Alexa.CreateStateHandler(state, {
     'Start': function () {
       console.log('LISTEN_REPEAT Start');
-      shuffle(LIST_OF_DIALOGUES);
-      this.attributes['dialogues'] = LIST_OF_DIALOGUES.slice(0, 5);
+      let secitons;
+      while (true) {
+        shuffle(LIST_OF_DIALOGUES);
+        secitons = LIST_OF_DIALOGUES.slice(0, 8);
+        if (secitons.find(dialogue => dialogue.scene)) {
+          break;
+        }
+      }
+      this.attributes['dialogues'] = secitons;
       this.attributes['dialogueCount'] = 0;
-      this.attributes['quoteCount'] = 0;
+      this.attributes['phraseCount'] = 0;
       this.attributes['repeat'] = '';
       this.attributes['percentage'] = 0;
       this.attributes['again'] = false;
@@ -23,63 +30,81 @@ function createHandlers(state, LIST_OF_DIALOGUES) {
     },
     'AskListenRepeat': function () {
       console.log('LISTEN_REPEAT AskListenRepeat');
-      const {dialogues, dialogueCount, quoteCount, repeat, percentage, again, againCount} = this.attributes;
-      const praise = percentage > 95 ? '<emphasis level="strong">Awesome!</emphasis>' : 'Good.';
-      const evaluation = `${praise} ${percentage} percent correct. `;
-      if (dialogueCount === dialogues.length - 1 && quoteCount === dialogues[dialogueCount]['quotes'].length) {
+      const {dialogues, dialogueCount, phraseCount, repeat, percentage, again, againCount} = this.attributes;
+      const praise = percentage > 95 ? 'Great.' : 'Good.';
+      const evaluation = `${praise}`;
+      if (!again && dialogueCount === dialogues.length - 1 && phraseCount === dialogues[dialogueCount]['phrases'].length) {
         return this.emit(':tell', `${evaluation} ${MSG_THANK_YOU}`);
       }
-      const scene = `Dialogue ${dialogueCount + 1}, following quotes are from ${dialogues[dialogueCount]['scene']}.<break time='500ms'/>`;
-      const person = `<emphasis level="reduced">${dialogues[dialogueCount]['quotes'][quoteCount]['person']}.</emphasis><break time='300ms'/>`;
-      const quote = `${dialogues[dialogueCount]['quotes'][quoteCount]['quote']}`;
-      let intro = '';
-      if (quoteCount === 0) {
-        intro = `${scene}`;
+      let dialogueInfo = `Number ${dialogueCount + 1}.<break time='500ms'/>`;
+      if (dialogues[dialogueCount]['scene']) {
+        dialogueInfo = `Number ${dialogueCount + 1}, following phrases are from ${dialogues[dialogueCount]['scene']}<break time='500ms'/>`;
       }
-      if (quoteCount > 0) {
-        intro = `${evaluation} `;
+      let person = '';
+      if (dialogues[dialogueCount]['phrases'][phraseCount]['person']) {
+        person = `${dialogues[dialogueCount]['phrases'][phraseCount]['person']}`;
+      }
+      let phrase = `${dialogues[dialogueCount]['phrases'][phraseCount]['phrase']}`;
+      let lead = '';
+      if (dialogueCount === 0 && phraseCount === 0) {
+        lead = `${dialogueInfo}`;
+      } else {
+        if (phraseCount === 0) {
+          lead = `${evaluation} ${dialogueInfo} `;
+        } else {
+          lead = `${evaluation} `;
+        }
       }
       if (again === true) {
         if (repeat) {
-          intro = `Hmm, ${percentage} percent correct. You said ${repeat}. `;
+          lead = `Good. You said ${repeat}. `;
         } else {
-          intro = `Hmm, I couldn't get what you said. `;
+          lead = `You're doing great. `;
         }
-        if (againCount === 5) {
+        if (againCount === 3) {
           this.attributes['againCount'] = 0;
-          if (quoteCount + 1 === dialogues[dialogueCount]['quotes'].length && dialogueCount + 1 < dialogues.length) {
+          if (phraseCount + 1 === dialogues[dialogueCount]['phrases'].length && dialogueCount + 1 < dialogues.length) {
             this.attributes['dialogueCount'] += 1;
-            this.attributes['quoteCount'] = 0;
+            this.attributes['phraseCount'] = 0;
           } else {
-            this.attributes['quoteCount'] += 1;
+            this.attributes['phraseCount'] += 1;
           }
-          if (this.attributes['dialogueCount'] === dialogues.length - 1 && this.attributes['quoteCount'] === dialogues[this.attributes['dialogueCount']]['quotes'].length) {
+          if (this.attributes['dialogueCount'] === dialogues.length - 1 && this.attributes['phraseCount'] === dialogues[this.attributes['dialogueCount']]['phrases'].length) {
             return this.emit(':tell', `${evaluation} ${MSG_THANK_YOU}`);
           }
-          intro += `Try next one. `;
+          lead += `Let's go next one! `;
+
+          if (dialogues[this.attributes['dialogueCount']]['phrases'][this.attributes['phraseCount']]['person']) {
+            person = `${dialogues[this.attributes['dialogueCount']]['phrases'][this.attributes['phraseCount']]['person']} said.`;
+          }
+          phrase = `${dialogues[this.attributes['dialogueCount']]['phrases'][this.attributes['phraseCount']]['phrase']}`;
         } else {
-          intro += `One more time. `;
+          lead += `One more time? `;
         }
       }
-      this.emit(':ask', `${intro}<break time='1s'/>${person}${quote}`, MSG_RE_PROMPT);
+      if (person && !again) {
+        this.emit(':ask', `${lead}<break time='1s'/>${person} said.<break time='1s'/> <prosody volume="x-loud" rate="slow">${phrase}</prosody>`, MSG_RE_PROMPT);
+      } else {
+        this.emit(':ask', `${lead}<break time='1s'/><prosody volume="x-loud" rate="slow">${phrase}</prosody>`, MSG_RE_PROMPT);
+      }
     },
     'ListenRepeatIntent': function () {
       console.log('LISTEN_REPEAT ListenRepeatIntent');
       console.log('slots', this.event.request.intent.slots);
       this.attributes['repeat'] = this.event.request.intent.slots.ListenRepeat.value;
-      const {dialogues, dialogueCount, quoteCount, repeat} = this.attributes;
+      const {dialogues, dialogueCount, phraseCount, repeat} = this.attributes;
 
-      const expectedQuote = dialogues[dialogueCount]['quotes'][quoteCount]['quote'].replace(/[^0-9|a-zA-Z| ]/ig, '').replace('  ', ' ');
-      const similarity = stringSimilarity.compareTwoStrings(expectedQuote, repeat);
+      const expectedPhrase = dialogues[dialogueCount]['phrases'][phraseCount]['phrase'].replace(/[^0-9|a-zA-Z| ]/ig, '').replace('  ', ' ');
+      const similarity = stringSimilarity.compareTwoStrings(expectedPhrase, repeat);
       const percentage = Math.floor(similarity * 100);
       this.attributes['percentage'] = percentage;
 
       if (percentage > 50) {
-        if (quoteCount + 1 === dialogues[dialogueCount]['quotes'].length && dialogueCount + 1 < dialogues.length) {
+        if (phraseCount + 1 === dialogues[dialogueCount]['phrases'].length && dialogueCount + 1 < dialogues.length) {
           this.attributes['dialogueCount'] += 1;
-          this.attributes['quoteCount'] = 0;
+          this.attributes['phraseCount'] = 0;
         } else {
-          this.attributes['quoteCount'] += 1;
+          this.attributes['phraseCount'] += 1;
         }
         this.attributes['again'] = false;
         this.attributes['againCount'] = 0;
@@ -107,27 +132,6 @@ function createHandlers(state, LIST_OF_DIALOGUES) {
   });
 }
 
-function showCustomSlotTypes() {
-  const paths = [
-    '../resources/big-hero-6.json'
-  ];
-  console.log('LIST_OF_LISTEN_REPEATS');
-  const quotesSet = new Set();
-  for (const path of paths) {
-    const LIST_OF_DIALOGUES = require(path);
-    for (const dialogue of LIST_OF_DIALOGUES) {
-      for (const quote of dialogue['quotes']) {
-        quotesSet.add(quote['quote']);
-      }
-    }
-  }
-  for (const item of quotesSet) {
-    console.log(item);
-  }
-  console.log();
-}
-
 module.exports = {
-  createHandlers,
-  showCustomSlotTypes
+  createHandlers
 };

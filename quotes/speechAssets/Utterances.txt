@@ -1,2 +1,3 @@
-TitleIntent quotes from {Title}
+TitleIntent I want to try {Title}
+TitleIntent Try {Title}
 ListenRepeatIntent {ListenRepeat}

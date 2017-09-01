@@ -1,6 +1,6 @@
-# Alexa Skill "Kumon English"
+# Alexa Skill "Quotes"
 
-Example Alexa Skill to study Kumon English phrases. This skill is intended to used only for my daughter's daily English practice.
+Example Alexa Skill to study English phrases from movies or shows. This skill is intended to used only for me and my daughter's daily English practice.
 
 ## Environment
 
@@ -42,7 +42,7 @@ $ sls help
 $ sls create --help
 ```
 
-Move to kumon directory and install dependencies.
+Move to quotes directory and install dependencies.
 
 ```bash
 # in Vagrant

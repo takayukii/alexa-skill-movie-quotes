@@ -1,39 +1,55 @@
 [
   {
     "scene": "At a Bot Fight",
-    "quotes": [
+    "phrases": [
       {
-        "person": "Announcer",
-        "quote": "THE WINNER, BY TOTAL ANNIHILATION... YAMA!"
+        "person": "Yama",
+        "phrase": "Who's next?!"
       },
       {
         "person": "Yama",
-        "quote": "Who's next?! Who has the guts to step into the ring with Little Yama?!"
+        "phrase": "Who has the guts to step into the ring with Little Yama?!"
       },
       {
         "person": "Hiro",
-        "quote": "Can I try?"
+        "phrase": "Can I try?"
       },
       {
         "person": "Hiro",
-        "quote": "I have a robot. I built it myself."
+        "phrase": "I have a robot. I built it myself."
       }
     ]
   },
   {
     "scene": "Tadashi just saved Hiro who was at a Bot Fight.",
-    "quotes": [
+    "phrases": [
       {
         "person": "Tadashi",
-        "quote": "Bot Fighting is illegal. You're going to get yourself arrested!"
+        "phrase": "Bot Fighting is illegal."
+      },
+      {
+        "person": "Tadashi",
+        "phrase": "You're going to get yourself arrested!"
       },
       {
         "person": "Hiro",
-        "quote": "Bot Fighting is NOT illegal! Betting on Bot Fighting, that's-- that's illegal. But, SO lucrative!"
+        "phrase": "Bot Fighting is NOT illegal!"
       },
       {
         "person": "Hiro",
-        "quote": "I'm on a roll, big brother! AND THERE IS NO STOPPING ME!"
+        "phrase": "Betting on Bot Fighting, that's-- that's illegal."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "But, SO lucrative!"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "I'm on a roll, big brother!"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "AND THERE IS NO STOPPING ME!"
       }
     ]
   }
