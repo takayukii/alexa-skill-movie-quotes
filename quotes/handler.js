@@ -4,8 +4,8 @@ const Alexa = require('alexa-sdk');
 const stringSimilarity = require('string-similarity');
 const {createHandlers} = require('./lib/listen-repeat-handlers');
 
-const MSG_RE_PROMPT = 'Please say that again?';
-const MSG_THANK_YOU = 'Thank you. See you soon.';
+const MSG_RE_PROMPT = 'Hello! Can you hear me?';
+const MSG_THANK_YOU = 'Thank you very much. See you at next time!';
 
 const STATE = {
   'Big Hero 6': 'big-hero-6.json'
@@ -59,3 +59,4 @@ module.exports.quotes = (event, context, callback) => {
 };
 
 module.exports.STATE = STATE;
+

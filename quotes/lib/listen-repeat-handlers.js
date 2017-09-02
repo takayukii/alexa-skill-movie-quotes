@@ -4,8 +4,8 @@ const Alexa = require('alexa-sdk');
 const stringSimilarity = require('string-similarity');
 const {shuffle} = require('./utils');
 
-const MSG_RE_PROMPT = 'Please say that again?';
-const MSG_THANK_YOU = 'Thank you. See you soon.';
+const MSG_RE_PROMPT = 'Hello! Can you hear me?';
+const MSG_THANK_YOU = 'Thank you very much. See you at next time!';
 
 function createHandlers(state, LIST_OF_DIALOGUES) {
   return Alexa.CreateStateHandler(state, {
@@ -14,7 +14,7 @@ function createHandlers(state, LIST_OF_DIALOGUES) {
       let secitons;
       while (true) {
         shuffle(LIST_OF_DIALOGUES);
-        secitons = LIST_OF_DIALOGUES.slice(0, 8);
+        secitons = LIST_OF_DIALOGUES.slice(0, 5);
         if (secitons.find(dialogue => dialogue.scene)) {
           break;
         }

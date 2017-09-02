@@ -1,7 +1,258 @@
 [
   {
-    "scene": "At a Bot Fight",
+    "scene": "Hiro Hamada",
     "phrases": [
+      {
+        "phrase": "People keep saying Tadashi's not really gone, as long as we remember him."
+      },
+      {
+        "phrase": "gonna need some upgrades."
+      },
+      {
+        "phrase": "Oh, great!"
+      },
+      {
+        "phrase": "I get to see your nerd lab!"
+      },
+      {
+        "phrase": "I have to go here!"
+      },
+      {
+        "phrase": "I-if I don't go to this nerd school, I'm gonna lose my mind!"
+      },
+      {
+        "phrase": "How do I get in?"
+      },
+      {
+        "phrase": "I am never taking the bus again."
+      },
+      {
+        "phrase": "Listen up!"
+      },
+      {
+        "phrase": "Use those big brains of yours to think your way around the problem!"
+      },
+      {
+        "phrase": "Look for a new angle!"
+      },
+      {
+        "phrase": "Our programming prevents us from injuring a human being."
+      }
+    ]
+  },
+  {
+    "scene": "Tadashi Hamada",
+    "phrases": [
+      {
+        "phrase": "Shake things up!"
+      },
+      {
+        "phrase": "Use that big brain of yours to think your way out!"
+      },
+      {
+        "phrase": "Look for a new angle."
+      },
+      {
+        "phrase": "Callaghan's in there."
+      },
+      {
+        "phrase": "Someone has to help."
+      },
+      {
+        "phrase": "I'm not giving up on you."
+      },
+      {
+        "phrase": "You don't understand this yet, but people need you."
+      },
+      {
+        "phrase": "So let's get back to work."
+      }
+    ]
+  },
+  {
+    "scene": "Baymax",
+    "phrases": [
+      {
+        "phrase": "Hello, I am Baymax, your personal healthcare companion."
+      },
+      {
+        "phrase": "On a scale of one to ten, how would you rate your pain?"
+      },
+      {
+        "phrase": "I cannot deactivate until you say you are satisfied with your care."
+      },
+      {
+        "phrase": "I am not fast."
+      },
+      {
+        "phrase": "Tadashi is here."
+      },
+      {
+        "phrase": "I'm healthcare, your personal Baymax companion."
+      },
+      {
+        "phrase": "WE JUMPED OUT A WINDOW!"
+      },
+      {
+        "phrase": "Hairy baby!"
+      },
+      {
+        "phrase": "Hairy baaaabyyyy."
+      },
+      {
+        "phrase": "Always wait one hour after eating before swimming."
+      },
+      {
+        "phrase": "Buckle up every time!"
+      },
+      {
+        "phrase": "Flying makes me a better healthcare companion."
+      },
+      {
+        "phrase": "Hiro, I will always be with you."
+      }
+    ]
+  },
+  {
+    "scene": "Fred",
+    "phrases": [
+      {
+        "phrase": "Whoo-hoo!"
+      },
+      {
+        "phrase": "Science! It's the reason we know more!"
+      },
+      {
+        "phrase": "Yes! Nothing is better than free food!"
+      },
+      {
+        "phrase": "Unless it's moldy!"
+      },
+      {
+        "phrase": "Hiro, if I could have only one superpower right now, it would be the ability to crawl through this camera, and give you a big hug."
+      },
+      {
+        "phrase": "My name is Fred, and it has been thirty days since my last-- HOLY MOTHER OF MEGAZON!"
+      },
+      {
+        "phrase": "It's like spooning a warm marshmallow."
+      },
+      {
+        "phrase": "Super jump!"
+      },
+      {
+        "phrase": "SUPER JUMP!"
+      },
+      {
+        "phrase": "I BREATHE FIRE!"
+      },
+      {
+        "phrase": "He's glorious!"
+      },
+      {
+        "phrase": "Rocket fist make Freddie so happy!"
+      },
+      {
+        "phrase": "It's Fred Time."
+      },
+      {
+        "phrase": "Super jump...!"
+      },
+      {
+        "phrase": "Gravity crush...!"
+      },
+      {
+        "phrase": "Falling hard...!"
+      },
+      {
+        "phrase": "Hello, sign!"
+      },
+      {
+        "phrase": "Care to go for a little spin?"
+      },
+      {
+        "phrase": "NOW MY SIGNS ARE ON FIRE!"
+      }
+    ]
+  },
+  {
+    "scene": "GoGo Tomago",
+    "phrases": [
+      {
+        "phrase": "Welcome to the nerd lab."
+      },
+      {
+        "phrase": "Stop whining, woman up."
+      },
+      {
+        "phrase": "Uh, why is he wearing carbon-fiber underpants?"
+      },
+      {
+        "phrase": "I thought you lived under a bridge."
+      }
+    ]
+  },
+  {
+    "scene": "Wasabi",
+    "phrases": [
+      {
+        "phrase": "If I wasn't just attacked by a guy in a kabuki mask, I think this would be the weirdest thing I've seen today."
+      },
+      {
+        "phrase": "My brain hates my eyes for seeing this."
+      },
+      {
+        "phrase": "Anybody else's suit riding up on 'em?"
+      },
+      {
+        "phrase": "Fred, I will laser hand you in the face!"
+      },
+      {
+        "phrase": "Heyǃ Uh, you wanna dance, masked man?"
+      },
+      {
+        "phrase": "Ha-ha! These are green blades of fury!"
+      }
+    ]
+  },
+  {
+    "scene": "Honey Lemon",
+    "phrases": [
+      {
+        "phrase": "Oh, my gosh!"
+      },
+      {
+        "phrase": "You must be Hiro!"
+      },
+      {
+        "phrase": "I'VE HEARD SO MUCH ABOUT YOU!"
+      },
+      {
+        "phrase": "Okay, okay, photo, photo!"
+      },
+      {
+        "phrase": "Everybody say \"Hiro\"!"
+      },
+      {
+        "phrase": "No, don't push us away, Hiro."
+      },
+      {
+        "phrase": "We're here for you."
+      },
+      {
+        "phrase": "Let's do this, Freddy!"
+      },
+      {
+        "phrase": "WHOO! NOW THAT'S A CHEMICAL REACTION!"
+      }
+    ]
+  },
+  {
+    "phrases": [
+      {
+        "person": "Announcer",
+        "phrase": "THE WINNER, BY TOTAL ANNIHILATION..."
+      },
       {
         "person": "Yama",
         "phrase": "Who's next?!"
@@ -16,12 +267,107 @@
       },
       {
         "person": "Hiro",
-        "phrase": "I have a robot. I built it myself."
+        "phrase": "I have a robot."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "I built it myself."
+      },
+      {
+        "person": "Announcer",
+        "phrase": "Beat it, kid."
+      },
+      {
+        "person": "Announcer",
+        "phrase": "House rules:"
+      },
+      {
+        "person": "Announcer",
+        "phrase": "You gotta pay to play."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Oh. Uh..."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "is this enough?"
+      },
+      {
+        "person": "Yama",
+        "phrase": "What's your name, little boy?"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Hiro. Hiro Hamada."
+      },
+      {
+        "person": "Yama",
+        "phrase": "Prepare your bot..."
+      },
+      {
+        "person": "Announcer",
+        "phrase": "Two bots enter, one bot leaves."
+      },
+      {
+        "person": "Announcer",
+        "phrase": "Fighters ready...?"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "That was my first fight."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "I-I-- Ca-Can I try again?"
+      },
+      {
+        "person": "Yama",
+        "phrase": "No one likes a sore loser, little boy."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "I've got more money."
+      },
+      {
+        "person": "Announcer",
+        "phrase": "Fighters ready?"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Megabot, destroy!"
       }
     ]
   },
   {
-    "scene": "Tadashi just saved Hiro who was at a Bot Fight.",
+    "phrases": [
+      {
+        "person": "Tadashi",
+        "phrase": "Hiro! Get on!"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Tadashi! Ah, perfect timing!"
+      }
+    ]
+  },
+  {
+    "phrases": [
+      {
+        "person": "Tadashi",
+        "phrase": "Are you okay?"
+      },
+      {
+        "person": "Tadashi",
+        "phrase": "Are you hurt?"
+      },
+      {
+        "person": "Tadashi",
+        "phrase": "THEN WHAT WERE YOU THINKING, KNUCKLEHEAD!?"
+      }
+    ]
+  },
+  {
     "phrases": [
       {
         "person": "Tadashi",
@@ -45,11 +391,1287 @@
       },
       {
         "person": "Hiro",
-        "phrase": "I'm on a roll, big brother!"
+        "phrase": "AND THERE IS NO STOPPING ME!"
+      }
+    ]
+  },
+  {
+    "phrases": [
+      {
+        "person": "Hiro and Tadashi",
+        "phrase": "Hi, Aunt Cass."
+      },
+      {
+        "person": "Cass",
+        "phrase": "Are you guys okay?"
+      },
+      {
+        "person": "Cass",
+        "phrase": "Tell me you're okay!"
       },
       {
         "person": "Hiro",
-        "phrase": "AND THERE IS NO STOPPING ME!"
+        "phrase": "We're fine."
+      },
+      {
+        "person": "Tadashi",
+        "phrase": "We're okay."
+      },
+      {
+        "person": "Cass",
+        "phrase": "Oh, good."
+      },
+      {
+        "person": "Cass",
+        "phrase": "THEN WHAT WERE YOU TWO KNUCKLEHEADS THINKING?!"
+      }
+    ]
+  },
+  {
+    "phrases": [
+      {
+        "person": "Tadashi",
+        "phrase": "You better make this up to Aunt Cass before she eats everything in the cafe."
+      },
+      {
+        "person": "Tadashi",
+        "phrase": "And I hope you learned your lesson, bonehead."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Absolutely."
+      },
+      {
+        "person": "Tadashi",
+        "phrase": "You're going Bot Fighting, aren't you?"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "There's a fight across town."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "If I book, I can still make it."
+      },
+      {
+        "person": "Tadashi",
+        "phrase": "WHEN are you gonna start doing something with that big brain of yours?"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "What? Go to college like you?"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "So people can tell me stuff I already know?"
+      },
+      {
+        "person": "Tadashi",
+        "phrase": "Unbelievable."
+      }
+    ]
+  },
+  {
+    "phrases": [
+      {
+        "person": "GoGo",
+        "phrase": "Welcome to the nerd lab."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "I've never seen electro-mag suspension on a bike before."
+      },
+      {
+        "person": "GoGo",
+        "phrase": "Zero resistance, faster bike."
+      }
+    ]
+  },
+  {
+    "phrases": [
+      {
+        "person": "Hiro",
+        "phrase": "Wow. How do you find anything in this mess?"
+      },
+      {
+        "person": "Wasabi",
+        "phrase": "I have a system."
+      },
+      {
+        "person": "Wasabi",
+        "phrase": "There's a place for every thing, everything in its place."
+      },
+      {
+        "person": "GoGo",
+        "phrase": "Need this!"
+      }
+    ]
+  },
+  {
+    "phrases": [
+      {
+        "person": "Hiro",
+        "phrase": "That's a whole lot of tungsten carbide."
+      },
+      {
+        "person": "Honey Lemon",
+        "phrase": "Four! Hundred!"
+      },
+      {
+        "person": "Honey Lemon",
+        "phrase": "Pounds of it!"
+      },
+      {
+        "person": "Honey Lemon",
+        "phrase": "C'mere, c'mere, c'mere, c'mere!"
+      },
+      {
+        "person": "Honey Lemon",
+        "phrase": "TA-DA! It's pretty great, huh?"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "So... pink."
+      },
+      {
+        "person": "Honey Lemon",
+        "phrase": "Here's the best part!"
+      },
+      {
+        "person": "Honey",
+        "phrase": "I know, right?"
+      },
+      {
+        "person": "Honey",
+        "phrase": "Chemical metal embrittlement!"
+      },
+      {
+        "person": "Tadashi",
+        "phrase": "Not bad, Honey Lemon."
+      }
+    ]
+  },
+  {
+    "phrases": [
+      {
+        "person": "Hiro",
+        "phrase": "\"Honey Lemon\"?"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "\"GoGo\"? \"Wasabi\"?"
+      },
+      {
+        "person": "Wasabi",
+        "phrase": "I spilled wasabi on my shirt one time, people!"
+      },
+      {
+        "person": "Wasabi",
+        "phrase": "ONE! TIME!"
+      },
+      {
+        "person": "Tadashi",
+        "phrase": "Fred is the one who comes up with the nicknames."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Uh, who's Fred?"
+      },
+      {
+        "person": "Fred",
+        "phrase": "This guy!"
+      },
+      {
+        "person": "Fred",
+        "phrase": "Right here!"
+      },
+      {
+        "person": "Fred",
+        "phrase": "I am also the school mascot."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "So, what's your major?"
+      },
+      {
+        "person": "Fred",
+        "phrase": "No, no, no, no, I'm not a student."
+      },
+      {
+        "person": "Fred",
+        "phrase": "But I am a major science enthusiast."
+      },
+      {
+        "person": "Fred",
+        "phrase": "I've been trying to get Honey to develop a formula that could turn me into a fire-breathing lizard at will."
+      },
+      {
+        "person": "Fred",
+        "phrase": "But she says that's \"not science\"."
+      },
+      {
+        "person": "Honey",
+        "phrase": "I-It's really not."
+      },
+      {
+        "person": "Fred",
+        "phrase": "Yeah, and I guess the shrink ray I asked Wasabi for isn't \"science\" either, is it?"
+      },
+      {
+        "person": "Fred",
+        "phrase": "Well then, what about..."
+      },
+      {
+        "person": "Fred",
+        "phrase": "invisible sandwich?"
+      },
+      {
+        "person": "Fred",
+        "phrase": "Imagine eating a sandwich, but everybody just thinks you're crazy."
+      },
+      {
+        "person": "Wasabi",
+        "phrase": "Just stop."
+      }
+    ]
+  },
+  {
+    "phrases": [
+      {
+        "person": "Tadashi",
+        "phrase": "Yeah, I'm goin' for a non-threatening..."
+      },
+      {
+        "person": "Tadashi",
+        "phrase": "huggable kind of thing."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Looks like a walking marshmallow."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "No offense."
+      },
+      {
+        "person": "Baymax",
+        "phrase": "I am a robot."
+      },
+      {
+        "person": "Baymax",
+        "phrase": "I cannot be offended."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Hyperspectral cameras?"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Huh.  Titanium skeleton."
+      },
+      {
+        "person": "Tadashi",
+        "phrase": "Carbon-fiber."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Right, even lighter."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Killer actuators."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Where did you get those?"
+      },
+      {
+        "person": "Tadashi",
+        "phrase": "Ah, machined 'em right here, in house."
+      },
+      {
+        "person": "Tadashi",
+        "phrase": "Yep. He can lift a thousand pounds."
+      },
+      {
+        "person": "Baymax",
+        "phrase": "You have been a good boy."
+      },
+      {
+        "person": "Baymax",
+        "phrase": "Have a lollipop!"
+      },
+      {
+        "person": "Baymax",
+        "phrase": "I cannot deactivate until you say:"
+      },
+      {
+        "person": "Baymax",
+        "phrase": "You are satisfied with your care."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Well then, I'm satisfied with my care."
+      },
+      {
+        "person": "Tadashi",
+        "phrase": "He's gonna help a lot of people."
+      }
+    ]
+  },
+  {
+    "phrases": [
+      {
+        "person": "Tadashi",
+        "phrase": "We gotta hurry if you wanna catch that Bot Fight."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "I have to go here!"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "I-if I don't go to this nerd school, I'm gonna lose my mind!"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "How do I get in?"
+      },
+      {
+        "person": "Tadashi",
+        "phrase": "Every year, the school has a student showcase."
+      },
+      {
+        "person": "Tadashi",
+        "phrase": "You come up with something that blows Callaghan away, you're in."
+      },
+      {
+        "person": "Tadashi",
+        "phrase": "But it's gotta be great."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Nothing! No ideas!"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Useless! Empty!"
+      },
+      {
+        "person": "Tadashi",
+        "phrase": "Wow. Washed up at fourteen."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "I got nothing!"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "I'm done!"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "I'm never getting in!"
+      },
+      {
+        "person": "Tadashi",
+        "phrase": "Hey, I'm not giving up on you."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "AHHǃ What are you doing?!"
+      },
+      {
+        "person": "Tadashi",
+        "phrase": "Shake things up!"
+      },
+      {
+        "person": "Tadashi",
+        "phrase": "Use that big brain of yours to think your way out!"
+      },
+      {
+        "person": "Tadashi",
+        "phrase": "Look for a new angle."
+      }
+    ]
+  },
+  {
+    "phrases": [
+      {
+        "person": "Tadashi",
+        "phrase": "Wow. A lot of sweet tech here today."
+      },
+      {
+        "person": "Tadashi",
+        "phrase": "How you feeling?"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "You're talking to an ex-Bot Fighter."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Takes a lot more than this to rattle me."
+      },
+      {
+        "person": "GoGo",
+        "phrase": "Yep! He's nervous."
+      },
+      {
+        "person": "Fred",
+        "phrase": "Ah, you have nothing to fear, little fellow."
+      },
+      {
+        "person": "Honey",
+        "phrase": "He's so tense!"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "No, I'm not!"
+      },
+      {
+        "person": "Honey",
+        "phrase": "Relax, Hiro."
+      },
+      {
+        "person": "Honey",
+        "phrase": "Your tech is amazing!"
+      },
+      {
+        "person": "Honey",
+        "phrase": "Tell him, GoGo!"
+      },
+      {
+        "person": "GoGo",
+        "phrase": "Stop whining, woman up."
+      },
+      {
+        "person": "Wasabi",
+        "phrase": "What do you need, little man?"
+      },
+      {
+        "person": "Wasabi",
+        "phrase": "Deodorant?"
+      },
+      {
+        "person": "Wasabi",
+        "phrase": "Breath mint?"
+      },
+      {
+        "person": "Wasabi",
+        "phrase": "Fresh pair of underpants?"
+      },
+      {
+        "person": "GoGo",
+        "phrase": "Underpants?"
+      },
+      {
+        "person": "GoGo",
+        "phrase": "You need serious help."
+      },
+      {
+        "person": "Wasabi",
+        "phrase": "Hey, I come prepared."
+      },
+      {
+        "person": "Fred",
+        "phrase": "I haven't done laundry in six months."
+      },
+      {
+        "person": "Fred",
+        "phrase": "One pair lasts me four days."
+      },
+      {
+        "person": "Fred",
+        "phrase": "I go front, I go back, I go inside-out, and then, I go front and back."
+      },
+      {
+        "person": "Tadashi",
+        "phrase": "Wow. That is both disgusting and awesome."
+      },
+      {
+        "person": "GoGo",
+        "phrase": "Don't encourage him."
+      },
+      {
+        "person": "Fred",
+        "phrase": "It's called \"recycling\"."
+      }
+    ]
+  },
+  {
+    "phrases": [
+      {
+        "person": "Hiro",
+        "phrase": "I know what you're gonna say:"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "\"I should be proud of myself 'cause I'm finally using my gift for something important.\""
+      },
+      {
+        "person": "Tadashi",
+        "phrase": "No, no, I was just gonna tell you your fly was down for the whole show."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Ha, ha, hilarious."
+      },
+      {
+        "person": "Tadashi",
+        "phrase": "Welcome to nerd school..."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Hey, I, um, I wouldn't be here if it wasn't for you, so..."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "y-you know, thanks for not giving up on me."
+      }
+    ]
+  },
+  {
+    "phrases": [
+      {
+        "person": "Baymax",
+        "phrase": "Hello. I am Baymax, your personal healthcare companion."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Uh, hey. Bay-Baymax, I didn't know you were still..."
+      },
+      {
+        "person": "Baymax",
+        "phrase": "I heard a sound of distress."
+      },
+      {
+        "person": "Baymax",
+        "phrase": "What seems to be the trouble?"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Oh, I just stubbed my toe a little."
+      },
+      {
+        "person": "Baymax",
+        "phrase": "On a scale of one to ten, how would you rate your pain?"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "A zero? I'm-I'm okay, really."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Thanks. You can shrink now."
+      },
+      {
+        "person": "Baymax",
+        "phrase": "Does it hurt when I touch it?"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "No, no, no, that's okay."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "No, no touching."
+      },
+      {
+        "person": "Baymax",
+        "phrase": "You have fallen."
+      },
+      {
+        "person": "Baymax",
+        "phrase": "On a scale of one to ten, how would you rate your pain?"
+      },
+      {
+        "person": "Baymax",
+        "phrase": "It is alright to cry."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "No! No, no, no, no, no!"
+      },
+      {
+        "person": "Baymax",
+        "phrase": "Crying is a natural response to pain."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "I'm not crying!"
+      },
+      {
+        "person": "Baymax",
+        "phrase": "I will scan you for injuries."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "DON'T scan me."
+      },
+      {
+        "person": "Baymax",
+        "phrase": "Scan complete."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Unbelievable!"
+      },
+      {
+        "person": "Baymax",
+        "phrase": "You have sustained no injuries."
+      },
+      {
+        "person": "Baymax",
+        "phrase": "However, your hormone and neurotransmitter levels indicate that you are experiencing mood swings, common in adolescence."
+      },
+      {
+        "person": "Baymax",
+        "phrase": "Diagnosis:"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Whoa, what?!"
+      }
+    ]
+  },
+  {
+    "phrases": [
+      {
+        "person": "Hiro",
+        "phrase": "You gave me a heart attack!"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "STOP, STOP, STOP, STOP!"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "It's just an expression!"
+      }
+    ]
+  },
+  {
+    "phrases": [
+      {
+        "person": "Officer Gerson",
+        "phrase": "All right, let me get this straight:"
+      },
+      {
+        "person": "Officer Gerson",
+        "phrase": "A man in a Kabuki mask attacked you with an army of miniature flying robots?"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Microbots."
+      },
+      {
+        "person": "Officer Gerson",
+        "phrase": "Mi-cro-bots."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Yeah! He was controlling them telepathically with a neural-cranial transmitter."
+      },
+      {
+        "person": "Officer Gerson",
+        "phrase": "So Mr. Kabuki was using..."
+      },
+      {
+        "person": "Officer Gerson",
+        "phrase": "ESP to attack you and..."
+      },
+      {
+        "person": "Officer Gerson",
+        "phrase": "Balloon Man?"
+      }
+    ]
+  },
+  {
+    "phrases": [
+      {
+        "person": "Hiro",
+        "phrase": "Okay. If my aunt asks, we were at school all day."
+      },
+      {
+        "person": "Baymax",
+        "phrase": "WE JUMPED OUT A WINDOW!"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "No! Quiet!"
+      },
+      {
+        "person": "Baymax",
+        "phrase": "Shh! We jumped out a window!"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "You can't say things like that around Aunt Cassǃ Shh..."
+      },
+      {
+        "person": "Cass",
+        "phrase": "Hiro? You home, sweetie?"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Uh... that's right!"
+      },
+      {
+        "person": "Cass",
+        "phrase": "I thought I heard you."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "H-Hey, Aunt Cass."
+      },
+      {
+        "person": "Cass",
+        "phrase": "Oh, look at my little college man."
+      },
+      {
+        "person": "Cass",
+        "phrase": "Oh, I can't wait to hear all about it!"
+      },
+      {
+        "person": "Cass",
+        "phrase": "Oh, and wings are almost ready."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Will you be quiet!"
+      },
+      {
+        "person": "Cass",
+        "phrase": "Yeah, wiiiiings!"
+      },
+      {
+        "person": "Cass",
+        "phrase": "All right, get ready to have your face melted!"
+      },
+      {
+        "person": "Cass",
+        "phrase": "You are gonna feel these things tomorrow, you know what I'm saying?"
+      },
+      {
+        "person": "Cass",
+        "phrase": "Okay, sit down, tell me everything."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Um, the thing is, since I registered so late, I've got a lot of school stuff to catch up on."
+      },
+      {
+        "person": "Cass",
+        "phrase": "What was that?"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "...Mochi!"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Ooh, that darn cat!"
+      },
+      {
+        "person": "Cass",
+        "phrase": "Well, at least take a plate for the road, okay?"
+      },
+      {
+        "person": "Cass",
+        "phrase": "Don't work too hard."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Thanks for understanding."
+      }
+    ]
+  },
+  {
+    "phrases": [
+      {
+        "person": "Baymax",
+        "phrase": "I have some concerns."
+      },
+      {
+        "person": "Baymax",
+        "phrase": "This armor may undermine my non-threatening, huggable design."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "That's kinda the idea, buddy."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "You look sick!"
+      },
+      {
+        "person": "Baymax",
+        "phrase": "I cannot be sick."
+      },
+      {
+        "person": "Baymax",
+        "phrase": "I am a robot."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "It's just an expression."
+      }
+    ]
+  },
+  {
+    "phrases": [
+      {
+        "person": "Baymax",
+        "phrase": "I fail to see how Karate makes me a better healthcare companion."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "You wanna keep me healthy, don't you?"
+      }
+    ]
+  },
+  {
+    "phrases": [
+      {
+        "person": "Fred",
+        "phrase": "That mask..."
+      },
+      {
+        "person": "Fred",
+        "phrase": "the black suit-- We're under attack from a super-villain, people!"
+      },
+      {
+        "person": "Fred",
+        "phrase": "I mean, how cool is that?!"
+      },
+      {
+        "person": "Fred",
+        "phrase": "I mean, it's scary, obviously, but how cool!"
+      },
+      {
+        "person": "GoGo",
+        "phrase": "Why are we stopped?!"
+      },
+      {
+        "person": "Wasabi",
+        "phrase": "The light's red!"
+      },
+      {
+        "person": "GoGo",
+        "phrase": "THERE ARE NO RED LIGHTS IN A CAR CHASE!"
+      },
+      {
+        "person": "Wasabi",
+        "phrase": "Why's he trying to kill us?!"
+      },
+      {
+        "person": "Wasabi",
+        "phrase": "Um... Why are you trying to kill us?"
+      },
+      {
+        "person": "Fred",
+        "phrase": "It's classic villain!"
+      },
+      {
+        "person": "Fred",
+        "phrase": "We've seen too much!"
+      },
+      {
+        "person": "Honey",
+        "phrase": "Let's not jump to conclusions!"
+      },
+      {
+        "person": "Honey",
+        "phrase": "We don't know he's trying to kill us."
+      },
+      {
+        "person": "Honey",
+        "phrase": "HE'S TRYING TO KILL US!"
+      },
+      {
+        "person": "GoGo",
+        "phrase": "Did you just put your blinker on?!"
+      },
+      {
+        "person": "Wasabi",
+        "phrase": "You have to indicate your turn!"
+      },
+      {
+        "person": "Wasabi",
+        "phrase": "It's the LAW!"
+      },
+      {
+        "person": "GoGo",
+        "phrase": "THAT'S..."
+      }
+    ]
+  },
+  {
+    "phrases": [
+      {
+        "person": "Wasabi",
+        "phrase": "We're not gonna make it!"
+      },
+      {
+        "person": "Honey",
+        "phrase": "We're gonna make it!"
+      },
+      {
+        "person": "Wasabi",
+        "phrase": "We're not gonna make it!"
+      },
+      {
+        "person": "Honey",
+        "phrase": "We're gonna make it!"
+      },
+      {
+        "person": "Wasabi",
+        "phrase": "WE'RE NOT GONNA MAKE IT!"
+      },
+      {
+        "person": "Honey",
+        "phrase": "WE'RE GONNA MAKE ITǃ"
+      },
+      {
+        "person": "Wasabi",
+        "phrase": "WE MADE IT!"
+      }
+    ]
+  },
+  {
+    "phrases": [
+      {
+        "person": "Hiro",
+        "phrase": "Fred, w-where are you going?"
+      },
+      {
+        "person": "Fred",
+        "phrase": "Oh! Welcome to mi casa!"
+      },
+      {
+        "person": "Fred",
+        "phrase": "That's French for \"front door\"."
+      },
+      {
+        "person": "Honey",
+        "phrase": "It's really...not."
+      },
+      {
+        "person": "GoGo",
+        "phrase": "Listen, nitwit!"
+      },
+      {
+        "person": "GoGo",
+        "phrase": "A lunatic in a mask just tried to kill us!"
+      },
+      {
+        "person": "GoGo",
+        "phrase": "I'm not in the mood for any-!"
+      },
+      {
+        "person": "Heathcliff",
+        "phrase": "Welcome home, Master Fredrick."
+      },
+      {
+        "person": "Fred",
+        "phrase": "Heathcliff!"
+      },
+      {
+        "person": "Fred",
+        "phrase": "Come on in, guys."
+      },
+      {
+        "person": "Fred",
+        "phrase": "We'll be safe in here."
+      },
+      {
+        "person": "Fred",
+        "phrase": "Gimme some!"
+      }
+    ]
+  },
+  {
+    "phrases": [
+      {
+        "person": "Hiro",
+        "phrase": "Does this symbol mean anything to you guys?"
+      },
+      {
+        "person": "Fred",
+        "phrase": "Yes! It's a bird!"
+      }
+    ]
+  },
+  {
+    "phrases": [
+      {
+        "person": "Hiro",
+        "phrase": "Yes! Ha-ha!"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "I can use the data from your scan to find him!"
+      },
+      {
+        "person": "GoGo",
+        "phrase": "Uh, you'd have to scan everyone in San Fransokyo, and that might take, I don't know, forever."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "No. No, no, no, I-- I just have to look for another angle."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Actually, if we're gonna catch this guy, I need to upgrade all of you."
+      },
+      {
+        "person": "Wasabi",
+        "phrase": "Upgrade who, now?"
+      },
+      {
+        "person": "Baymax",
+        "phrase": "Those who suffer a loss require support from friends and loved ones."
+      },
+      {
+        "person": "Fred",
+        "phrase": "Ho-ho! Okay, I like where this is heading!"
+      },
+      {
+        "person": "Wasabi",
+        "phrase": "We can't go against that guy!"
+      },
+      {
+        "person": "Wasabi",
+        "phrase": "We're nerds!"
+      },
+      {
+        "person": "Honey",
+        "phrase": "Hiro, we want to help, but we're just...us."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "No, you can be...way more."
+      },
+      {
+        "person": "GoGo",
+        "phrase": "Tadashi Hamada was our best friend."
+      },
+      {
+        "person": "Fred",
+        "phrase": "Ha-ha! Can you feel it?!"
+      },
+      {
+        "person": "Fred",
+        "phrase": "You guys, do you feel this?!"
+      },
+      {
+        "person": "Fred",
+        "phrase": "Our origin story begins!"
+      },
+      {
+        "person": "Fred",
+        "phrase": "WE'RE GONNA BE SUPERHEROES!"
+      }
+    ]
+  },
+  {
+    "phrases": [
+      {
+        "person": "Baymax",
+        "phrase": "I fail to see how flying makes me a better healthcare companion."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "I fail to see how you fail to see that it's AWESOME!"
+      }
+    ]
+  },
+  {
+    "phrases": [
+      {
+        "person": "Hiro",
+        "phrase": "Wow. That was..."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "That was..."
+      },
+      {
+        "person": "Baymax",
+        "phrase": "Sick.  It is just an expression."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "That's right, buddy."
+      }
+    ]
+  },
+  {
+    "phrases": [
+      {
+        "person": "GoGo",
+        "phrase": "Killer view!"
+      },
+      {
+        "person": "Wasabi",
+        "phrase": "Yeah! If I wasn't terrified of heights, I'd probably love this!"
+      },
+      {
+        "person": "Wasabi",
+        "phrase": "But I'm terrified of heights, so I DON'T LOVE IT!"
+      }
+    ]
+  },
+  {
+    "phrases": [
+      {
+        "person": "Fred",
+        "phrase": "EAT FIREǃ EAT FIREǃ"
+      },
+      {
+        "person": "Fred",
+        "phrase": "That... was a bird."
+      },
+      {
+        "person": "Honey",
+        "phrase": "Well, heh, at least we know our gear works."
+      }
+    ]
+  },
+  {
+    "phrases": [
+      {
+        "person": "Baymax",
+        "phrase": "There is still a way I can get you both to safety."
+      },
+      {
+        "person": "Baymax",
+        "phrase": "I cannot deactivate until you say you are satisfied with your care."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "No, no, no, no, no, wait."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "What about you?"
+      },
+      {
+        "person": "Baymax",
+        "phrase": "You are my patient."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "B-B-Baymax, no--"
+      },
+      {
+        "person": "Baymax",
+        "phrase": "Your health is my only concern."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Stop! No, I-I-I'm-- I'm gonna figure out--"
+      },
+      {
+        "person": "Baymax",
+        "phrase": "Are you satisfied with your care?"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "No! There's gotta be another way!"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "I'm not gonna leave you here!"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "I'll think of something!"
+      },
+      {
+        "person": "Baymax",
+        "phrase": "There is no time."
+      },
+      {
+        "person": "Baymax",
+        "phrase": "Are you satisfied with your care?"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Please! No!"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "I can't lose you, too."
+      },
+      {
+        "person": "Baymax",
+        "phrase": "Hiro, I will always be with you."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "I'm satisfied with my care."
+      }
+    ]
+  },
+  {
+    "phrases": [
+      {
+        "person": "Hiro",
+        "phrase": "We didn't set out to be superheroes."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "But, sometimes, life doesn't go the way you planned."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "The good thing is, my brother wanted to help a lot of people."
+      },
+      {
+        "person": "Hiro",
+        "phrase": "That's what we're gonna doǃ Who are we?"
+      }
+    ]
+  },
+  {
+    "phrases": [
+      {
+        "person": "Fred",
+        "phrase": "Oh, no, no, no-- OW!"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "Fred! Will you just chill with the hook?!"
+      },
+      {
+        "person": "Fred",
+        "phrase": "Uh, every great superhero origin story starts with a grappling hook."
+      },
+      {
+        "person": "Fred",
+        "phrase": "Even you should know that."
+      },
+      {
+        "person": "Fred",
+        "phrase": "ALRIGHT, HIRO!"
+      },
+      {
+        "person": "Fred",
+        "phrase": "JUMP! I'LL CATCH YOU!"
+      },
+      {
+        "person": "Fred",
+        "phrase": "Sorry, I can't see very well in the mask."
+      },
+      {
+        "person": "Wasabi",
+        "phrase": "What...? Hiro?"
+      },
+      {
+        "person": "Wasabi",
+        "phrase": "Fred? Is that a grappling hook?"
       }
     ]
   }
