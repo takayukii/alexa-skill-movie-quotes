@@ -18,7 +18,10 @@
         "phrase": "where everyone got along and anyone could be anything."
       },
       {
-        "phrase": "Turns out, real life is a little bit more complicated than a slogan on a bumper sticker."
+        "phrase": "Turns out, real life is a little bit more complicated"
+      },
+      {
+        "phrase": "than a slogan on a bumper sticker."
       },
       {
         "phrase": "Real life is messy."
@@ -33,7 +36,10 @@
         "phrase": "Which means―hey, glass half full!―we all have a lot in common."
       },
       {
-        "phrase": "And the more we try to understand one another, the more exceptional each of us will be."
+        "phrase": "And the more we try to understand one another,"
+      },
+      {
+        "phrase": "the more exceptional each of us will be."
       },
       {
         "phrase": "But we have to try."
@@ -102,7 +108,11 @@
     "phrases": [
       {
         "person": "Young Gideon",
-        "phrase": "Give me your tickets right now, or I'm gonna kick your meek little sheep butt!"
+        "phrase": "Give me your tickets right now,"
+      },
+      {
+        "person": "Young Gideon",
+        "phrase": "or I'm gonna kick your meek little sheep butt!"
       },
       {
         "person": "Sharla",
@@ -138,7 +148,11 @@
       },
       {
         "person": "Young Gideon",
-        "phrase": "And like you said in your dumb little stage play, us predators used to eat prey,"
+        "phrase": "And like you said in your dumb little stage play,"
+      },
+      {
+        "person": "Young Gideon",
+        "phrase": "us predators used to eat prey,"
       },
       {
         "person": "Young Gideon",
@@ -486,7 +500,11 @@
       },
       {
         "person": "Judy",
-        "phrase": "Actually, it's Officer Hopps, and I'm here to ask you some questions about a case."
+        "phrase": "Actually, it's Officer Hopps,"
+      },
+      {
+        "person": "Judy",
+        "phrase": "and I'm here to ask you some questions about a case."
       },
       {
         "person": "Nick",
@@ -554,7 +572,11 @@
       },
       {
         "person": "Nick",
-        "phrase": "And I also know that somewhere, there's a toy store missing its stuffed animal."
+        "phrase": "And I also know that somewhere,"
+      },
+      {
+        "person": "Nick",
+        "phrase": "there's a toy store missing its stuffed animal."
       },
       {
         "person": "Nick",
@@ -602,7 +624,11 @@
       },
       {
         "person": "Judy",
-        "phrase": "Anyway, according to your tax forms, you reported, let me see here...zero!"
+        "phrase": "Anyway, according to your tax forms,"
+      },
+      {
+        "person": "Judy",
+        "phrase": "you reported, let me see here...zero!"
       },
       {
         "person": "Judy",
@@ -1190,7 +1216,11 @@
     "phrases": [
       {
         "person": "Judy",
-        "phrase": "That went so fast, I didn't get a chance to mention you, or say anything about how we --"
+        "phrase": "That went so fast, I didn't get a chance to mention you,"
+      },
+      {
+        "person": "Judy",
+        "phrase": "or say anything about how we --"
       },
       {
         "person": "Nick",
