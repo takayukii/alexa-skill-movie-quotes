@@ -129,7 +129,10 @@
         "phrase": "Unless it's moldy!"
       },
       {
-        "phrase": "Hiro, if I could have only one superpower right now, it would be the ability to crawl through this camera, and give you a big hug."
+        "phrase": "Hiro, if I could have only one superpower right now,"
+      },
+      {
+        "phrase": "it would be the ability to crawl through this camera, and give you a big hug."
       },
       {
         "phrase": "My name is Fred, and it has been thirty days since my last-- HOLY MOTHER OF MEGAZON!"
@@ -196,7 +199,10 @@
     "scene": "Wasabi",
     "phrases": [
       {
-        "phrase": "If I wasn't just attacked by a guy in a kabuki mask, I think this would be the weirdest thing I've seen today."
+        "phrase": "If I wasn't just attacked by a guy in a kabuki mask,"
+      },
+      {
+        "phrase": "I think this would be the weirdest thing I've seen today."
       },
       {
         "phrase": "My brain hates my eyes for seeing this."
@@ -603,7 +609,11 @@
       },
       {
         "person": "Fred",
-        "phrase": "I've been trying to get Honey to develop a formula that could turn me into a fire-breathing lizard at will."
+        "phrase": "I've been trying to get Honey to develop a formula"
+      },
+      {
+        "person": "Fred",
+        "phrase": "that could turn me into a fire-breathing lizard at will."
       },
       {
         "person": "Fred",
@@ -1023,7 +1033,11 @@
       },
       {
         "person": "Baymax",
-        "phrase": "However, your hormone and neurotransmitter levels indicate that you are experiencing mood swings, common in adolescence."
+        "phrase": "However, your hormone and neurotransmitter levels indicate"
+      },
+      {
+        "person": "Baymax",
+        "phrase": "that you are experiencing mood swings, common in adolescence."
       },
       {
         "person": "Baymax",
@@ -1159,7 +1173,11 @@
       },
       {
         "person": "Hiro",
-        "phrase": "Um, the thing is, since I registered so late, I've got a lot of school stuff to catch up on."
+        "phrase": "Um, the thing is, since I registered so late,"
+      },
+      {
+        "person": "Hiro",
+        "phrase": "I've got a lot of school stuff to catch up on."
       },
       {
         "person": "Cass",
@@ -1415,7 +1433,11 @@
       },
       {
         "person": "GoGo",
-        "phrase": "Uh, you'd have to scan everyone in San Fransokyo, and that might take, I don't know, forever."
+        "phrase": "Uh, you'd have to scan everyone in San Fransokyo,"
+      },
+      {
+        "person": "GoGo",
+        "phrase": "and that might take, I don't know, forever."
       },
       {
         "person": "Hiro",
