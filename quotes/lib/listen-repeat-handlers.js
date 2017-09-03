@@ -121,6 +121,16 @@ function createHandlers(state, LIST_OF_DIALOGUES) {
         this.emitWithState('AskListenRepeat');
       }
     },
+    'SkipIntent': function () {
+      console.log('LISTEN_REPEAT SkipIntent');
+      this.attributes['again'] = false;
+      this.attributes['againCount'] = 0;
+      this.attributes['repeat'] = undefined;
+      this.attributes['percentage'] = 0;
+      this.attributes['dialogueCount'] += 1;
+      this.attributes['phraseCount'] = 0;
+      this.emitWithState('AskListenRepeat');
+    },
     'AMAZON.StopIntent': function () {
       this.emit(':tell', MSG_THANK_YOU);
     },
