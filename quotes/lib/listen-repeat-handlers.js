@@ -11,15 +11,21 @@ function createHandlers(state, LIST_OF_DIALOGUES) {
   return Alexa.CreateStateHandler(state, {
     'Start': function () {
       console.log('LISTEN_REPEAT Start');
-      let secitons;
-      while (true) {
-        shuffle(LIST_OF_DIALOGUES);
-        secitons = LIST_OF_DIALOGUES.slice(0, 5);
-        if (secitons.find(dialogue => dialogue.scene)) {
-          break;
+      let dialogues;
+      const hasScene = LIST_OF_DIALOGUES.find(dialogue => dialogue.scene);
+      if (hasScene) {
+        while (true) {
+          shuffle(LIST_OF_DIALOGUES);
+          dialogues = LIST_OF_DIALOGUES.slice(0, 5);
+          if (dialogues.find(dialogue => dialogue.scene)) {
+            break;
+          }
         }
+      } else {
+        shuffle(LIST_OF_DIALOGUES);
+        dialogues = LIST_OF_DIALOGUES.slice(0, 5);
       }
-      this.attributes['dialogues'] = secitons;
+      this.attributes['dialogues'] = dialogues;
       this.attributes['dialogueCount'] = 0;
       this.attributes['phraseCount'] = 0;
       this.attributes['repeat'] = '';

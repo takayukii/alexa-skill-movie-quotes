@@ -1,22 +1,26 @@
 {
   "intents": [
     {
-      "intent": "TitleIntent",
       "slots": [
         {
           "name": "Title",
           "type": "AMAZON.Movie"
+        },
+        {
+          "name": "Episode",
+          "type": "AMAZON.NUMBER"
         }
-      ]
+      ],
+      "intent": "TitleIntent"
     },
     {
-      "intent": "ListenRepeatIntent",
       "slots": [
         {
           "name": "ListenRepeat",
           "type": "LIST_OF_LISTEN_REPEATS"
         }
-      ]
+      ],
+      "intent": "ListenRepeatIntent"
     },
     {
       "intent": "AMAZON.StopIntent"

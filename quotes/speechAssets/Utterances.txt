@@ -1,3 +1,5 @@
 TitleIntent I want to try {Title}
+TitleIntent I want to try {Title} episode {Episode}
 TitleIntent Try {Title}
+TitleIntent Try {Title} episode {Episode}
 ListenRepeatIntent {ListenRepeat}

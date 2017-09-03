@@ -9,7 +9,8 @@ const MSG_THANK_YOU = 'Thank you very much. See you at next time!';
 
 const STATE = {
   'Big Hero 6': 'big-hero-6.json',
-  'Zootopia': 'zootopia.json'
+  'Zootopia': 'zootopia.json',
+  'Friends season 1 episode 1': 'friends-1-1.json'
 };
 
 const handlers = [
@@ -26,9 +27,14 @@ const handlers = [
     'TitleIntent': function () {
       console.log('handlers TitleIntent');
       const title = this.event.request.intent.slots.Title.value;
+      const episode = this.event.request.intent.slots.Episode.value;
+      const actualTitle = episode ? `${title} episode ${episode}` : title;
+      console.log('actualTitle', actualTitle);
       const titles = Object.keys(STATE);
       for (const t of titles) {
-        if (stringSimilarity.compareTwoStrings(t.toLowerCase(), title) * 100 > 80) {
+        const similarity = stringSimilarity.compareTwoStrings(t.toLowerCase(), actualTitle);
+        console.log('similarity', t.toLowerCase(), similarity);
+        if (similarity * 100 > 70) {
           this.handler.state = STATE[t];
           return this.emitWithState('Start');
         }

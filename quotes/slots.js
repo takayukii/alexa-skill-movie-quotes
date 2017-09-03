@@ -10,13 +10,13 @@ for (const path of paths) {
   for (const dialogue of LIST_OF_DIALOGUES) {
     for (const quote of dialogue['phrases']) {
       const phrase = quote['phrase'].toLowerCase().replace(/"/g, '');
-      const chars = phrase.split();
+      const chars = phrase.split('');
       while (chars.length > 140) {
         let i;
         for (i = chars.length - 1; chars[i] !== ' '; i--) {}
-        chars.splice(0, i);
+        chars.splice(i - 1);
       }
-      phrasesSet.add(chars.join());
+      phrasesSet.add(chars.join(''));
     }
   }
 }
